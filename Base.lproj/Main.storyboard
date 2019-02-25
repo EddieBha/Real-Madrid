@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CAB-M3-Pl6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Real_Madrid_app_projekt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="real" translatesAutoresizingMaskIntoConstraints="NO" id="Jfd-Je-ANc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9aE-iG-dmj">
+                                <rect key="frame" x="8" y="28" width="302" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Real Madrid CF team app." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FID-Ag-ph3">
+                                        <rect key="frame" x="2" y="2" width="292" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97201526599999999" green="1" blue="0.52325850839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yQ4-tZ-uof">
+                                <rect key="frame" x="67" y="115" width="240" height="365"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="365" id="iNI-2H-aao"/>
+                                </constraints>
+                                <mutableString key="text">Real madrid, "Royal Madrid Football Club"), commonly known as Real Madrid, is a professional football club based in Madrid, Spain.
+
+Founded on 6 March 1902 as the Madrid Football Club, the club has traditionally worn a white home kit since inception. The word real is Spanish for "royal" and was bestowed to the club by King Alfonso XIII in 1920 together with the royal crown in the emblem. The team has played its home matches in the 81,044-capacity Santiago Bernabéu Stadium in downtown Madrid since 1947. Unlike most European sporting entities, Real Madrid's members (socios) have owned and operated the club throughout its history.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yQ4-tZ-uof" firstAttribute="centerX" secondItem="Jfd-Je-ANc" secondAttribute="centerX" id="15R-hB-4HS"/>
+                            <constraint firstItem="Jfd-Je-ANc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2pJ-Zz-eaM"/>
+                            <constraint firstItem="yQ4-tZ-uof" firstAttribute="top" secondItem="9aE-iG-dmj" secondAttribute="bottom" constant="62" id="8rN-3i-fy1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yQ4-tZ-uof" secondAttribute="bottom" constant="138" id="9Wj-Gs-Lwy"/>
+                            <constraint firstItem="9aE-iG-dmj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="BJJ-YN-Gor"/>
+                            <constraint firstItem="yQ4-tZ-uof" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="CkC-Am-5ph"/>
+                            <constraint firstItem="Jfd-Je-ANc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Go1-kE-qXb"/>
+                            <constraint firstItem="9aE-iG-dmj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Xxf-Yq-TDQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yQ4-tZ-uof" secondAttribute="trailing" constant="68" id="gPJ-12-RmC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9aE-iG-dmj" secondAttribute="trailing" constant="65" id="hW0-kB-vhI"/>
+                            <constraint firstItem="Jfd-Je-ANc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xPn-kO-YuS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="fsB-x8-jcM"/>
+                    <connections>
+                        <outlet property="backgroundPic" destination="Jfd-Je-ANc" id="RWU-pb-nrb"/>
+                        <outlet property="infoText" destination="yQ4-tZ-uof" id="NSw-Nb-wAb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1544.8" y="-5.8470764617691158"/>
+        </scene>
+        <!--Squad-->
+        <scene sceneID="OqT-Do-wrY">
+            <objects>
+                <viewController id="MxW-mK-DuL" customClass="SquadWebViewController" customModule="Real_Madrid_app_projekt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lra-4U-jaH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wTr-KB-TbS">
+                                <rect key="frame" x="0.0" y="40" width="375" height="568"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dFU-0c-2wT" firstAttribute="bottom" secondItem="wTr-KB-TbS" secondAttribute="bottom" constant="10" id="CeV-tT-ffZ"/>
+                            <constraint firstItem="wTr-KB-TbS" firstAttribute="leading" secondItem="dFU-0c-2wT" secondAttribute="leading" id="d6A-de-8Hj"/>
+                            <constraint firstItem="wTr-KB-TbS" firstAttribute="top" secondItem="dFU-0c-2wT" secondAttribute="top" constant="20" id="gc0-bh-0kh"/>
+                            <constraint firstItem="wTr-KB-TbS" firstAttribute="trailing" secondItem="dFU-0c-2wT" secondAttribute="trailing" id="tro-7x-Pcl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dFU-0c-2wT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Squad" image="squad" id="PQe-Px-cNm"/>
+                    <connections>
+                        <outlet property="sqWebView" destination="wTr-KB-TbS" id="1vr-A8-fwk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Y6-Pb-8Dj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="759"/>
+        </scene>
+        <!--Photos-->
+        <scene sceneID="2N6-mL-iyo">
+            <objects>
+                <viewController id="yfa-ZM-PjL" customClass="PhotosViewController" customModule="Real_Madrid_app_projekt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="juW-lw-zCK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cC4-a2-0c1">
+                                <rect key="frame" x="-0.5" y="-14.5" width="375" height="667"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcw-Bw-9J9">
+                                <rect key="frame" x="323" y="569" width="36" height="33"/>
+                                <color key="backgroundColor" red="0.20206782970000001" green="0.32344277869999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPic:" destination="yfa-ZM-PjL" eventType="touchUpInside" id="p4g-16-P2Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FL-xv-Eio">
+                                <rect key="frame" x="16" y="569" width="66" height="33"/>
+                                <color key="backgroundColor" red="0.68774287560000003" green="0.68774287560000003" blue="0.68774287560000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Previous">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousPic:" destination="yfa-ZM-PjL" eventType="touchUpInside" id="L1c-Ij-ScY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rBL-D4-Y2J" firstAttribute="bottom" secondItem="6FL-xv-Eio" secondAttribute="bottom" constant="16" id="96J-ER-o2B"/>
+                            <constraint firstItem="cC4-a2-0c1" firstAttribute="centerY" secondItem="rBL-D4-Y2J" secondAttribute="centerY" id="CL7-zh-O6u"/>
+                            <constraint firstItem="rBL-D4-Y2J" firstAttribute="trailing" secondItem="qcw-Bw-9J9" secondAttribute="trailing" constant="16" id="HWe-WZ-i69"/>
+                            <constraint firstItem="rBL-D4-Y2J" firstAttribute="bottom" secondItem="qcw-Bw-9J9" secondAttribute="bottom" constant="16" id="Jjx-A0-uB2"/>
+                            <constraint firstItem="6FL-xv-Eio" firstAttribute="leading" secondItem="rBL-D4-Y2J" secondAttribute="leading" constant="16" id="MRb-uC-nJf"/>
+                            <constraint firstItem="cC4-a2-0c1" firstAttribute="centerX" secondItem="rBL-D4-Y2J" secondAttribute="centerX" id="pTw-Fb-OEB"/>
+                            <constraint firstItem="cC4-a2-0c1" firstAttribute="height" secondItem="juW-lw-zCK" secondAttribute="height" id="srP-Zw-a3S"/>
+                            <constraint firstItem="cC4-a2-0c1" firstAttribute="width" secondItem="juW-lw-zCK" secondAttribute="width" id="yAM-m2-gAl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rBL-D4-Y2J"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photos" id="hE1-Os-sbL"/>
+                    <connections>
+                        <outlet property="mainScrollView" destination="cC4-a2-0c1" id="dRD-JZ-UeN"/>
+                        <outlet property="nextBtn" destination="qcw-Bw-9J9" id="kSn-XB-tpy"/>
+                        <outlet property="previousBtn" destination="6FL-xv-Eio" id="Qxc-Ha-bSX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Apo-C1-reu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2327.1999999999998" y="6.746626686656672"/>
+        </scene>
+        <!--Match Schedule-->
+        <scene sceneID="0Rs-Hx-kM4">
+            <objects>
+                <viewController id="q5o-xW-KSF" customClass="MatchWebViewController" customModule="Real_Madrid_app_projekt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sGO-Hc-pPQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0K-OY-06Y">
+                                <rect key="frame" x="0.0" y="30" width="375" height="578"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y0K-OY-06Y" firstAttribute="trailing" secondItem="pgD-bY-cGS" secondAttribute="trailing" id="Fv0-x8-txY"/>
+                            <constraint firstItem="y0K-OY-06Y" firstAttribute="leading" secondItem="pgD-bY-cGS" secondAttribute="leading" id="JVV-zQ-1d1"/>
+                            <constraint firstItem="pgD-bY-cGS" firstAttribute="bottom" secondItem="y0K-OY-06Y" secondAttribute="bottom" constant="10" id="OFr-jl-C8c"/>
+                            <constraint firstItem="y0K-OY-06Y" firstAttribute="top" secondItem="pgD-bY-cGS" secondAttribute="top" constant="10" id="dHx-Cr-ej5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pgD-bY-cGS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Match Schedule" image="match schedule" id="T8u-I2-7CN"/>
+                    <connections>
+                        <outlet property="matchWebView" destination="y0K-OY-06Y" id="Yhj-p0-HW1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MgJ-TL-UzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2059" y="787"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8J0-Ag-L50">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CAB-M3-Pl6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BJS-dk-yKS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Icm-pY-3WI"/>
+                        <segue destination="MxW-mK-DuL" kind="relationship" relationship="viewControllers" id="IQW-UL-7cU"/>
+                        <segue destination="yfa-ZM-PjL" kind="relationship" relationship="viewControllers" id="boc-TX-joc"/>
+                        <segue destination="q5o-xW-KSF" kind="relationship" relationship="viewControllers" id="ejW-S1-6GA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAP-qZ-ob3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="605.60000000000002" y="-5.8470764617691158"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="25" height="25"/>
+        <image name="match schedule" width="25" height="25"/>
+        <image name="photos" width="25" height="25"/>
+        <image name="real" width="853" height="853"/>
+        <image name="squad" width="25" height="25"/>
+    </resources>
+</document>
